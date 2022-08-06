@@ -1,15 +1,15 @@
 .App {
   text-align: center;
 }
-.fix{
+/* .fix{
   position: absolute;
   top: 324px;
   right: 300px;
 
-}
-.display{
-  display: inline-block;
-  width: 700px;
+} */
+.media{
+display: flex;
+
 }
 
 .App-logo {
@@ -44,5 +44,10 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width:1204px) {
+  .media{
+    display: flex;
   }
 }
