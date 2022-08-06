@@ -1,6 +1,16 @@
 .App {
   text-align: center;
 }
+.fix{
+  position: absolute;
+  top: 324px;
+  right: 300px;
+
+}
+.display{
+  display: inline-block;
+  width: 700px;
+}
 
 .App-logo {
   height: 40vmin;
